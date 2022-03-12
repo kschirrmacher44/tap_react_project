@@ -1,5 +1,4 @@
-import { useContext } from "react";
-import SurveyCard from "../interface/SurveyCard";
+
 import Button from "../interface/Button";
 
 const CreditCard = (props) => {

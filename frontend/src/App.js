@@ -59,6 +59,7 @@ const App = () => {
         setSurveyToggle(false);
       } else {
         setErrorState(true);
+        setSurveyToggle(false)
       }
     } catch (err) {
       console.log(err);
@@ -108,11 +109,12 @@ const App = () => {
           />
         )}
         {creditCardToggle && <CreditCard goBack={goBack} />}
-        {surveyToggle && (
+        {surveyToggle && !errorState && (
           <SurveyAuth
             formState={formState}
             formSubmitHandler={formSubmitHandler}
             goBack={goBack}
+            onInput={inputHandler}
           >
             <Input
               type="text"

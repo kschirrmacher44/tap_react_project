@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={`header${colorMode.isAltColorMode ? "-alt" : ""}`}>
       <h2 className={`title${colorMode.isAltColorMode ? "-alt" : ""}`}>
-        Survey Funneler
+        SurveyFunneler
       </h2>
       <p
         className={`toggler${colorMode.isAltColorMode ? "-alt" : ""}`}
