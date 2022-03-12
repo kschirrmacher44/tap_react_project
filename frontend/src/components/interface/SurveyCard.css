@@ -1,0 +1,30 @@
+.surveyCard {
+  width: 35%;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  color: black;
+}
+
+.surveyCard-alt {
+  max-width: 35%;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: burlywood;
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  color: brown;
+}
+

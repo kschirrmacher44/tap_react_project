@@ -1,0 +1,28 @@
+.button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin: 1rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.button:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
+
+.button-alt {
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background: brown;
+  color: burlywood;
+  cursor: pointer;
+  margin: 1rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}

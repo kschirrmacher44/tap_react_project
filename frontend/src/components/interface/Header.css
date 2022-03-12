@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+.toggler {
+  color: black;
+  right: 0;
+  position: absolute;
+  padding-right: 2rem;
+  justify-content: right;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.title {
+  color: black;
+  position: absolute;
+  left: 0;
+  padding-left: 2rem;
+}
+
+.header-alt {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: burlywood;
+}
+
+.toggler-alt {
+  color: brown;
+  right: 0;
+  position: absolute;
+  padding-right: 2rem;
+  justify-content: right;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.title-alt {
+  color: brown;
+  position: absolute;
+  left: 0;
+  padding-left: 2rem;
+}
